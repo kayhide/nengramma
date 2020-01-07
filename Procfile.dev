@@ -1,0 +1,2 @@
+parcel: $(yarn bin)/parcel public/index.html
+spago: spago build --watch
