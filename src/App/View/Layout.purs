@@ -16,6 +16,7 @@ make = do
       $ fragment
         [ R.button
             { onClick: handler_ $ setCounter (_ + 1)
+            , className: "btn btn-secondary m-3"
             , children: [ R.text $ "Increment: " <> show counter ]
             }
         ]
